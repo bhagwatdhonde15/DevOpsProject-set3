@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM amazoncorretto:17
 WORKDIR /app
 COPY HelloWorld.java .
 RUN javac HelloWorld.java
